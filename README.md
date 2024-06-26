@@ -8,7 +8,7 @@ This example uses the ConfigurationBuilder to add the settings of the appsetting
 * builder.Build() generates the configuration
 
 Typesafe Reading via configuration.GetValue<T>(settingKey)
-or not typesafe via configuration[settingKey]
+or not typesafe via configuration[settingKey].
 
 (The typesafe method "GetValue" needs the Nuget-package "Microsoft.Extensions.Configuration.Binder".)
 
