@@ -1,6 +1,6 @@
 # AppSettingsInConsoleApp
 
-## Example of how to access settings from appsettings.json file in a console app.
+## Access settings from appsettings.json file in a console app
 
 This example uses the ConfigurationBuilder to add the settings of the appsettings.json file.
 * setting the path with builder.SetBasePath to CurrentDirectory
