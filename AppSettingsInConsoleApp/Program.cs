@@ -16,5 +16,6 @@ Console.WriteLine($" * TextSettingB:  {configuration["SettingsGroup:SettingB"]}"
 
 Console.WriteLine($"\n * SecretSetting:  {configuration["SecretSetting"]}");
 
-Console.WriteLine("\n----");
 
+Console.WriteLine("\n\nPress any key to exit.");
+Console.ReadKey(true);
